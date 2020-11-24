@@ -110,8 +110,6 @@ public class AirPlaneGame extends JFrame   {
 			
 		}
 		
-		
-		
 		@Override
 		public void actionPerformed(ActionEvent e) {    //this method is the "game loop" 
 			
@@ -137,9 +135,6 @@ public class AirPlaneGame extends JFrame   {
 			bull.moveB();	
 			repaint();
 		}
-		
-		
-		
 		@Override
 		public void mouseDragged(MouseEvent m) {
 			mx=m.getX();
@@ -154,8 +149,7 @@ public class AirPlaneGame extends JFrame   {
 		}
 		@Override
 		public void mouseClicked(MouseEvent m) {
-			
-			
+				
 		}
 		@Override
 		public void mouseEntered(MouseEvent m) {
